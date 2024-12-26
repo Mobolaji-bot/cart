@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+   <link href="./output.css" rel="stylesheet">
+   <script type="module" defer src="index.js"></script>
+  
+  <title>Frontend Mentor | Product list with cart</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-rose-50 flex flex-col">
+<section class="flex flex-col p-5">
+  <h1 class="text-3xl font-bold text-[#2b100e] mb-5">Deserts</h1>
+  <div id="desert-container" class="grid-cols-1 gap-5">
+
+
+    </div>
+   
+</section>
+<section class="flex flex-col item-start justify-center bg-white p-5">
+  <h2 class="text-2xl font-semibold text-[#4b5563]">Your Cart(0)</h2>
+  <div class="flex flex-col items-center justify-center w-full h-full" id="emptyCart">
+    
+  <img src="./assets/images/illustration-empty-cart.svg" alt="">
+  <p class="text-sm text-[#2b100e] font-semibold">Your added items will appear</p>
+  <p class="total-price">Total Price: 0</p>
+  </div>
+  <div id="cartItems" class="hidden"></div>
+</section>
+ 
+</body>
+</html>
